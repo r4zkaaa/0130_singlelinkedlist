@@ -12,3 +12,9 @@ public:
 class lindkedList 
 {
     Node *START;
+
+public:
+    lindkedList()
+    {
+        START = NULL;
+    }
