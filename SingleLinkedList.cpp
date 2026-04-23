@@ -22,3 +22,5 @@ public:
      void addNode()
     {
      int nim;
+       cout << "\nMasukkan nomor mahasiswa: ";
+    cin >> nim;
