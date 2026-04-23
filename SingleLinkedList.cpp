@@ -27,3 +27,11 @@ public:
 
     Node *nodeBaru = new Node();
     nodeBaru->noMhs = nim;
+
+    if (START == NULL || nim <= START->noMHS)
+    {
+        if (START !=NULL && nim == START->noMhs)
+        {
+            cout << "\nDuplikasi noMhs tidak diijinkan\n";
+            return;
+        }
