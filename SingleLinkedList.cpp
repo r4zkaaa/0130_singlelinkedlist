@@ -8,3 +8,7 @@ public:
     int noMhs;
     Node *next;
 };
+
+class lindkedList 
+{
+    Node *START;
